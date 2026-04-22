@@ -44,7 +44,7 @@ Security researchers
 Anyone who frequently needs to look up kernel magic numbers, flags, or syscall values without manually digging through header files.
 
 # Installation
-1. Download kconst.sh
+1. Download kconst.sh on your GNU/Linux machine
 2. Open a terminal, go to the directory you downloaded kconst.sh and run `sudo install -m 755 kconst.sh /usr/local/bin/kconst`
 3. Now it should work with `bash /usr/local/bin/kconst --all`
 4. You can add an aliash to your ~/.bashrc file if you want to call `kconst` command at any time.
